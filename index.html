@@ -455,9 +455,24 @@
             </div>
 
             <div class="field">
-              <label for="brand">Desired Brand / Model</label>
-              <input id="brand" name="desired_brand_model" type="text" placeholder="Rolex Daytona, AP Royal Oak, Patek Nautilus...">
-            </div>
+  <label for="brand">Desired Brand</label>
+  <select id="brand" name="desired_brand" required>
+    <option value="">Select brand</option>
+    <option>Rolex</option>
+    <option>Patek Philippe</option>
+    <option>Audemars Piguet</option>
+    <option>Richard Mille</option>
+    <option>Hublot</option>
+    <option>Cartier</option>
+    <option>Vacheron Constantin</option>
+    <option>Other (specify below)</option>
+  </select>
+</div>
+
+<div class="field">
+  <label for="model">Desired Model</label>
+  <input id="model" name="desired_model" type="text" placeholder="e.g. Daytona, Nautilus, Royal Oak...">
+</div>
 
             <div class="field">
               <label for="budget">Budget Range</label>
