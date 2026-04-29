@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Request Received | Maison du Temps Club</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black:#040404;
+      --gold:#c6a75e;
+      --gold-soft:#e4c982;
+      --cream:#f7f1e6;
+      --muted:#a8a093;
+    }
+
+    * {
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body {
+      font-family:'Inter', sans-serif;
+      background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.9)),
+        url("assets/lifestyle-1.jpg") center/cover no-repeat;
+      color:var(--cream);
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .box {
+      max-width:650px;
+      padding:50px 40px;
+      background:rgba(0,0,0,.65);
+      border:1px solid rgba(198,167,94,.25);
+      backdrop-filter:blur(12px);
+    }
+
+    .logo {
+      max-width:260px;
+      margin-bottom:30px;
+    }
+
+    h1 {
+      font-family:'Cormorant Garamond', serif;
+      font-size:42px;
+      font-weight:500;
+      letter-spacing:2px;
+      margin-bottom:18px;
+      color:var(--gold-soft);
+    }
+
+    p {
+      color:var(--muted);
+      font-size:16px;
+      margin-bottom:30px;
+      line-height:1.6;
+    }
+
+    .highlight {
+      color:var(--gold);
+    }
+
+    .btn {
+      display:inline-block;
+      padding:14px 28px;
+      border-radius:999px;
+      background:linear-gradient(135deg,var(--gold),var(--gold-soft));
+      color:#000;
+      text-transform:uppercase;
+      letter-spacing:2px;
+      font-size:12px;
+      font-weight:600;
+      text-decoration:none;
+      transition:.25s;
+    }
+
+    .btn:hover {
+      transform:translateY(-2px);
+      box-shadow:0 15px 35px rgba(198,167,94,.2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+
+    <img src="assets/logo-light.png" class="logo" alt="Maison du Temps Club">
+
+    <h1>Request Received</h1>
+
+    <p>
+      Your request has been submitted successfully.<br><br>
+      A member of our team will review your enquiry and respond <span class="highlight">privately</span>.
+    </p>
+
+    <p>
+      Maison du Temps Club operates on a <span class="highlight">discreet, invitation-led basis</span>.<br>
+      Availability and pricing are shared only upon request.
+    </p>
+
+    <a href="index.html" class="btn">Return to Home</a>
+
+  </div>
+
+</body>
+</html>
